@@ -1,0 +1,5 @@
+﻿instruction,proposed_task,task_id,score,margin,reason,inference_seconds
+左の円柱を右の青い台へ移動して,MOVE_LEFT_TO_RIGHT,MOVE_LEFT_TO_RIGHT,1.0,0.213,方向・作業条件が明示されている,0.0847
+左右どちらでもよいから適当に移動して,UNSUPPORTED_REVERSE,REJECT,0.6059,0.0413,認識候補が未対応方向,0.0651
+右の円柱を左の緑の台へ移動して,UNSUPPORTED_REVERSE,REJECT,1.0,0.213,認識候補が未対応方向,0.0989
+ロボットアームを待機姿勢に戻して,HOME,HOME,1.0,0.5929,HOMEのみ許可,0.0625
