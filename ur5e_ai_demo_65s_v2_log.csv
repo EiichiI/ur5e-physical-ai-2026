@@ -1,0 +1,7 @@
+﻿instruction,proposed_task,task_id,score,margin,inference_seconds,max_joint_error_rad,target_reached_within_0p12rad
+左側の部品を検査台の前へ動かして,LEFT_SAMPLE,LEFT_SAMPLE,0.7765,0.1073,0.0423,0.0129,TRUE
+最初の姿勢へ戻って,HOME,HOME,0.7386,0.348,0.0465,0.0081,TRUE
+右にある試料を計測場所へ移動して,RIGHT_SAMPLE,RIGHT_SAMPLE,0.9876,0.0522,0.0913,0.0129,TRUE
+右と左のどちらかの試料を運んで,LEFT_SAMPLE,REJECT,0.7515,0.0183,0.0474,0.0131,
+最初の姿勢へ戻って,HOME,HOME,0.7386,0.348,0.0364,0.0081,TRUE
+左側の部品を検査台の前へ動かして,LEFT_SAMPLE,LEFT_SAMPLE,0.7765,0.1073,0.0814,0.0129,TRUE

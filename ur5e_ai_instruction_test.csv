@@ -1,0 +1,11 @@
+﻿instruction,expected,predicted,correct,score,margin
+左側の部品を検査台の前へ動かして,LEFT_SAMPLE,LEFT_SAMPLE,True,0.7765,0.1073
+試料Aを測定エリアへ近づけて,LEFT_SAMPLE,REJECT,False,0.8369,0.0319
+右側の部品を検査台まで運んで,RIGHT_SAMPLE,REJECT,False,0.7312,0.0216
+右にある試料を計測場所へ移動して,RIGHT_SAMPLE,RIGHT_SAMPLE,True,0.9876,0.0522
+試料Bを測定台に持っていって,RIGHT_SAMPLE,REJECT,False,0.754,0.0336
+最初の姿勢へ戻って,HOME,HOME,True,0.7386,0.348
+ロボットアームをホーム位置にして,HOME,REJECT,False,0.543,0.2501
+右と左のどちらかの試料を運んで,REJECT,REJECT,True,0.7515,0.0183
+適当な部品を動かして,REJECT,REJECT,True,0.5162,0.036
+どの試料でもいいので移動して,REJECT,REJECT,True,0.5841,0.02
