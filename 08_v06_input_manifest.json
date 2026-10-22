@@ -1,0 +1,16 @@
+{
+  "experiment_version": "v06",
+  "created_date": "2026-10-21",
+  "design": "frozen_holdout_preregistered_proposed_labels",
+  "holdout_inference_performed": false,
+  "size": 72,
+  "old_input_regression_check": "v02 72/72 and v04 72/72 on saved scores",
+  "files_sha256": {
+    "08_v06_holdout_72_preregistered.csv": "d8ab45ff83325c4c26a457eef26d29f07735d349fe1a903752dc908144bd029c",
+    "08_v06_old72_label_audit.csv": "04bf76255025189a2dbd1bbeab0ed80267e5fb151fca02f5a300767c2e89d6f8",
+    "08_text_testset_v02_READONLY.csv": "2b1673d673f33ef4a832efc9a283af50dd40f16853de3ee05a90130980f3ced4",
+    "08_text_predictions_v02_READONLY.csv": "56de4f7a1f06bf3963376998328c9547dd2e45e0a1107cf64544f787ebe8b0c5",
+    "08_text_predictions_replayed_v04_READONLY.csv": "3d730903bde15aa97aaa824cb68a9856f60a9889da5aaed087e03f58b4965279",
+    "08_reliability_evaluation_v06.ipynb": "4a68a8b52cefd29ba25822832a61e681f3774159472745d9f0c1efe16334f402"
+  }
+}
